@@ -12,6 +12,7 @@ def main():
   num1 = float(tempF)
   num2 = (num1-32) / (9/5)
   tempC = round(num2,1)
+  
   print(tempF, "is ", tempC, "degrees celsius.")
 if __name__ == '__main__':
   main()
